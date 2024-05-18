@@ -1,5 +1,23 @@
 # *Flare Network* price provider
 
+# Extra Notes
+
+## Branch Name
+
+I fetch `flare` and renamed it to `main`
+
+## Setting up secrets
+
+These are notes added to help spin this up more easily
+
+You need to setup the following environment variables (on heroku!)
+
+```
+PROJECT_SECRET= your private key
+RPC_URL = the RPC url
+
+# Original Notes
+
 ___
 **Note:** This is the version for the Flare network. See [`main`](https://github.com/flare-foundation/FTSO-price-provider) branch for the version for the Songbird network.
 ___
